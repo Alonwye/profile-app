@@ -2,6 +2,8 @@
   --primary-color: #5060f7;
   --secondary-color: #dbd1fa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -9,13 +11,18 @@ body {
   margin-top: 60px;
   margin-left: 10%;
   margin-right: 10%;
+  font-family: var(--default-font-family);
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   text-align: center;
   margin: 0;
+  font-family: var(--heading-font-family);
 }
 
 h1 {
@@ -42,7 +49,7 @@ p {
 }
 
 .hero {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -55,7 +62,6 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
@@ -75,16 +81,16 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
-  background: var(--secondary-color);
+.btn-branding {
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: var(--primary-color);
+  color: white;
   text-align: center;
 }
 
-.about-link {
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+.btn-branding-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   text-align: center;
 }
 
