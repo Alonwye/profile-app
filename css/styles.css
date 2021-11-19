@@ -53,7 +53,7 @@ p {
   padding: 160px 20px;
 }
 
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
 
@@ -69,23 +69,34 @@ img {
   color: #272142;
 }
 
-.about-content {
-  padding: 30px;
+.content {
+  margin: 30px;
 }
 
-.about-hero h1 {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content-container h1 {
   font-size: 64px;
   line-height: 1.5;
   text-align: left;
 }
 
-.about-hero h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   text-align: left;
 }
 
-.about-hero p {
+.content-container p {
   font-size: 14px;
   text-align: left;
 }
@@ -192,27 +203,27 @@ img {
     font-size: 24px;
   }
 
-  .about-hero h1 {
+  .content-container h1 {
     font-size: 24px;
     text-align: center;
   }
 
-  .about-hero h2 {
+  .content-container h2 {
     font-size: 16px;
     text-align: center;
   }
 
-  .about-hero p {
+  .content-container p {
     text-align: center;
   }
 
-  .about-content {
+  .content {
     padding: 0px;
     text-align: center;
   }
 
   .hero,
-  .about-hero {
+  .content-container {
     padding: 80px 20px;
   }
 
