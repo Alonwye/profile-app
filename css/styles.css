@@ -12,6 +12,11 @@ body {
   margin-left: 10%;
   margin-right: 10%;*/
   font-family: var(--default-font-family);
+  background: linear-gradient(
+    1.3deg,
+    rgb(91, 117, 163) 11.4%,
+    rgb(68, 98, 128) 77%
+  );
 }
 
 nav {
@@ -32,13 +37,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: white;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--primary-color);
+  color: black;
 }
 
 .logo {
@@ -80,7 +85,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 20px;
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
@@ -176,7 +181,7 @@ img {
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: white;
   text-align: center;
   display: block;
 }
